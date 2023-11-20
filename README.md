@@ -33,27 +33,6 @@ https://downloads.mongodb.com/compass/mongodb-compass-1.38.0-win32-x64.exe
 ```
 
 
-### For Stripe Config
-
-- Create Account On https://stripe.com/en-in
-
-- ![Alt text](<Stripe API.png>)
-
-- STRIPE_SECRET_KEY =
-- STRIPE_API_KEY =
-
-### For Mailtrap Config
-
-- Create Account On https://mailtrap.io/
-
-- ![Alt text](<mailtrap API.png>)
-
-- SMTP_HOST =
-- SMTP_PORT =
-- SMTP_EMAIL =
-- SMTP_PASSWORD =
-- SMTP_FROM_EMAIL = noreply@shopit.com
-- SMTP_FROM_NAME = shopit
 
 ### Install Dependencies (Backend)
 
