@@ -32,31 +32,6 @@ https://www.mongodb.com/try/download/community
 https://downloads.mongodb.com/compass/mongodb-compass-1.38.0-win32-x64.exe
 ```
 
-### Env Variables
-
-Rename configFiles.env to config.env in backend/config folder
-
-Add your config variables values in the config.env file in backend/config folder
-
-- PORT = 4000
-- NODE_ENV = DEVELOPMENT
-- DB_LOCAL_URI = mongodb://127.0.0.1:27017/shopit
-- DB_URI = Add This When You Host Your Database Online
-- FRONTEND_URL = "http://localhost:3000"
-
-* JWT_SECRET = SDFDFSHDFHDUISHHUDFHUISHFIUSHDFHFDHIUSDH3432H4J23HE2HUH2S (Any Random Value)
-* JWT_EXPIRES_TIME = 7d (Any Random Value)
-* COOKIE_EXPIRES_TIME = 7 (Any Random Value)
-
-### For Cloudinary Config
-
-- Create Account On https://cloudinary.com
-
-- ![Alt text](<cloudinary API.png>)
-
-- CLOUDINARY_CLOUD_NAME =
-- CLOUDINARY_API_KEY =
-- CLOUDINARY_API_SECRET =
 
 ### For Stripe Config
 
